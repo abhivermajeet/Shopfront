@@ -85,30 +85,37 @@
   padding: 0 0 0 10px;
   margin-bottom: 35px;
 }
-.addToCartBtn{
+.addToCartBtn,.buyNowBtn{
   display: block;
   height: 50px;
   width: 70%;
   border-radius: 3px;
   background-color: #19147a;
-  color: #ffffff;
-  
+  color: #ffffff; 
+  margin-bottom: 20px;
 }
-.accordion {
+.accordion{
   background-color: #eee;
   color: #444;
   cursor: pointer;
   padding: 18px;
-  width: 100%;
+  width: 70%;
   border: none;
   text-align: left;
   outline: none;
   font-size: 15px;
   transition: 0.4s;
+  transition: 1s;
+}
+.east_arrow{
+  float: right;
 }
 
 .active, .accordion:hover {
   background-color: #ccc;
+}
+.accordion:hover .east_arrow{
+  transform: rotate(90deg);
 }
 
 .panel {
@@ -117,4 +124,8 @@
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
+  width: 70%;
+}
+.panel p{
+  font-weight: 500;
 }
