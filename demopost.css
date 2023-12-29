@@ -1,0 +1,172 @@
+*{
+  color: #19147a;
+}
+.page_holder a {
+  color: #19147a;
+  font-size: 0.75rem;
+  font-weight: 700;
+  margin-right: 20px;
+}
+.page_holder a:hover{
+  color: #19147a;
+}
+.page_holder a:nth-of-type(3)
+{
+  text-decoration: none;
+} 
+.page_holder{
+  margin-bottom: 40px;
+}
+
+.review_btn{
+  font-size: 11px;
+  height: 20px;
+  width: 100px;
+  border-radius: 5px;
+  border: none;
+  color: #19147a;
+  font-weight: 700;
+  padding: 1px 5px;
+  background-color: #ffffff;
+  margin-left: 15%;
+  margin-bottom: 30px;
+}
+.demoPost_btn:hover{
+  background-color: #19147a;
+  color:  #ffffff;
+}
+
+
+
+.first_heading{
+  font-size: 3.5rem;
+}
+.main_div{
+  margin-left: 15%;
+  margin-right: 10%;
+}
+.date{
+  font-size: 12px;
+  font-weight: 500;
+  color: #8d8d8d;
+}
+.date span{
+  color: #19147a;
+}
+.heading_para{
+  font-size: 16px;
+  font-weight: 500;
+}
+#demo_img{
+  width: 100% !important;
+  height: auto;
+ 
+}
+.first_para{
+  margin-top: 20px;
+  font-size: 17px;
+  font-weight: 500;
+}
+.quote{
+  margin-top: 50px;
+  margin-bottom: 40px;
+  height: 200px;
+  width: 60%;
+  margin-left: 20.5%;
+  margin-right: 2.5%;
+  background-color: #f6f6f6;
+  font-size: 18px;
+  word-spacing: 1rem;
+}
+cite{
+  margin-top: 20px;
+  display: block;
+  text-align: center;
+  font-weight: 700;
+  color: #8d8d8d;
+}
+.second_para h2{
+  font-size: 3.5rem;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.second_para p{
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.third_para h1{
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.third_para{
+  margin-bottom: 75px;
+}
+.comment_section{
+  background-color: #f6f6f6;
+}
+.first_comment_section{
+  margin-top: 100px;
+}
+
+.comment_pic{
+  width: 30px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+.comment_section p,.comment_section button{
+  margin-left: 50px;
+}
+
+.comment_section button{
+  height: 40px;
+  width: 90px;
+  border: none;
+  color: #19147a;
+  outline: 1px solid #8d8d8d;
+ 
+}
+button:hover{
+  background-color: #19147a;
+  color: #ffffff;
+}
+.input_box input{
+  height: 50px;
+  width: 251px;
+  margin-right: 10px;
+  margin-bottom: 35px;
+  padding: 5px 5px 5px 10px;
+  background-color: #fff;
+  outline: 1px solid #8d8d8d;
+  border: 0;
+}
+.comment_div textarea{
+  padding: 10px 20px;
+  font-size: 15px;
+  background-color: #fff;
+  margin-bottom: 25px;
+}
+.comment_div{
+  margin-top: 100px;
+  margin-bottom: 150px;
+}
+.comment_div h2,.comment_div p{
+  margin-top: 20px;
+}
+.comment_div p{
+  margin-bottom: 20px;
+}
+.comment_div button{
+  height: 45px;
+  width: 150px;
+  background-color: #19147a;
+  color: #fff;
+  
+}
+.comment_div span{
+  font-size: 12px;
+  font-weight: 600;
+  margin-right: 190px;
+}

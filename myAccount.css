@@ -1,0 +1,40 @@
+*{
+  color: #19147a;
+}
+h1{
+  margin-left: 42%;
+  margin-bottom: 30px;
+}
+.login_para{
+  margin-top: 35px;
+  margin-left: 48%;
+}
+.form_page{
+  margin-top: 50px;
+ margin-bottom: 150px;
+}
+
+.form_page_input{
+  display: block;
+  margin-left: 35%;
+  margin-bottom: 20px;
+  height: 50px;
+  width: 35%;
+  padding-left: 15px;
+}
+.check_input{
+  margin-left: 35%;
+  margin-bottom: 15px;
+}
+.log_btn{
+  display: block;
+  margin-left: 35%;
+  height: 45px;
+  width: 35%;
+  background-color: #19147a;
+  color: #fff;
+  border-radius: 5px;
+}
+.pass_recover{
+  margin-left: 46%;
+}

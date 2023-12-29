@@ -1,0 +1,245 @@
+
+:root{
+  --body-color: #fff;
+  --notification_bar_color: #f8f6f1;
+  --text_color: #19147a;
+  --btnbackground_color: #19147a;
+  --secondtext_color: #8d8d8d;
+  --secslidingbox_color: #f4f4f4;
+}
+.dark_theme{
+  --body-color: #000;
+  --notification_bar_color: #0a0a0a;
+  --text_color: #fff;
+  --btnbackground_color: #8d8d8d;
+  --secondtext_color: #faf8f8;
+  --secslidingbox_color: #0a0a0a;
+}
+
+body{
+  background-color: var(--body-color) !important;
+  transition: background 0.3s;
+}
+
+.page_holder{
+  width: 100%;
+  height: 45px;
+  background-color: #FFFFFF;
+  margin-bottom: 35px;
+  overflow: hidden;
+}
+.page_holder a{
+  text-decoration: none;
+  color: var(--text_color);
+  font-size: 0.75rem;
+  font-weight: 700;
+  margin-right: 20px;
+}
+.page_holder > a:first-child{
+  text-decoration: underline;
+  color: var(--text_color);
+  transition: 0.5s;
+}
+.page_holder > a:first-child:hover{
+  text-decoration: none;
+}
+.page_holder a:nth-of-type(2)
+{
+  color: var(--text_color);
+} 
+.laptops_heading{
+  width: 100%;
+  margin-bottom: 33px;
+}
+.laptops_heading h1{
+  display: inline-flex;
+  color: var(--text_color);
+  font-size: 3.5rem !important;
+  font-weight: 500;
+  max-width: 24%;
+  margin-right: 28%;
+  
+}
+.laptops_heading span{
+  float: inline-end;
+  color: var(--text_color);
+  font-size: 18px;
+  width: 43%;
+  
+}
+.shortcuts{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  color: var(--text_color);
+  font-weight: 500;
+  margin-top: 30px;
+  margin-bottom: 25px;
+  overflow: hidden;
+}
+.shortcuts_left,.shortcuts_right{
+  display: flex;
+  justify-content: space-evenly;
+  /* position: relative; */
+}
+.shortcuts_left button{
+  margin-right: 30px;
+  height: 40px;
+  width: 100px;
+  align-items: center;
+  color: var(--btnbackground_color);
+  border: none;
+  outline: 0.1px solid #8d8d8d;
+  position: relative;
+  top: -7px
+}
+.shortcuts_left button:hover,.shortcuts_right button:hover{
+  background-color: var(--btnbackground_color);
+  color: #FFFFFF;
+}
+.shortcuts_right span{
+  margin-right: 10px;
+}
+.shortcuts_right button{
+  height: 40px;
+  width: 140px;
+  align-items: center;
+  color:var(--btnbackground_color);
+  border: none;
+  outline: 0.1px solid #8d8d8d;
+  position: relative;
+  top: -7px
+}
+
+.latestArrival_container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+  margin-bottom: 150px;
+  overflow: hidden;
+}
+.latestArrival_item{
+  position: relative;
+  margin-bottom: 120px;
+  width: 23.5%;
+}
+.latestArrival_item_image{
+  height: 348px;
+  width: 100%;
+  border-radius: 5px;
+  /* margin-right: 20px; */
+}
+.latestArrival_item_details{
+  position: absolute;
+  top: 354px;
+  left: 0;
+}
+.latestArrival_item_name{
+  font-weight: 600;
+  color: var(--text_color);
+  margin-top: 1rem;
+  padding: 0;
+  font-size: 18px;
+}
+.latestArrival_item_description{
+  font-weight: 600;
+  font-size: 0.75rem;
+  letter-spacing: normal;
+  line-height: 1.45;
+  margin-top: 0.05rem;
+  color: #8d8d8d;
+  margin-bottom: 15px;
+}
+.latestArrival_item_price{
+   display: flex;
+}
+.latestArrival_item_currentprice{
+   color: var(--text_color);
+   font-size: 12px;
+   font-weight: 700;
+   margin-right: 10px;
+
+}
+.latestArrival_item_originalprice{
+   color: #DC3F52;
+   font-size: 12px;
+   font-weight: 700;
+   text-decoration: line-through;
+}
+.item_i{
+  background-image: url(Images/laptops/1.0.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.item_ii{
+  background-image: url(Images/laptops/2.0.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.item_iii{
+  background-image: url(Images/laptops/3.0.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.item_iv{
+  background-image: url(Images/laptops/1.0.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.item_i:hover{
+  transition: 0.3s ease-in-out;
+  background-image: url(Images/laptops/1.1.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.item_ii:hover{
+  transition: 0.3s ease-in-out;
+  background-image: url(Images/laptops/2.1.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.item_iii:hover{
+  transition: 0.3s ease-in-out;
+  background-image: url(Images/laptops/3.1.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.item_iv:hover{
+  transition: 0.3s ease-in-out;
+  background-image: url(Images/laptops/2.1.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+@media screen and (max-width: 991px) {
+
+  .latestArrival_item{
+    width: 47%;
+  }
+  .latestArrival_item_image{
+    width: 100%;
+  }
+
+}
+@media screen and (max-width: 766px) {
+  .shortcuts_left button{
+    margin-right: 15px;
+  }
+  .laptops_heading {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .laptops_heading h1{
+     font-size: 2rem;
+     order: 1;
+  }
+  .laptops_heading span{
+    font-size: 14px;
+    order: 2;
+    width: 100%;
+  }
+  
+}
