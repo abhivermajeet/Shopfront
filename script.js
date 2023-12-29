@@ -1,6 +1,6 @@
 var darkBtn = document.getElementById("theme_icon_container");
-var images1 = ["img1.webp", "img2.webp", "img3.webp"];
-var images2 = ["img1.jpg", "img2.jpg", "img3.jpg"];
+var Images1 = ["img1.webp", "img2.webp", "img3.webp"];
+var Images2 = ["img1.jpg", "img2.jpg", "img3.jpg"];
 var sliding_imageDetail = [
   {
     sellItem_name: "On-ear Wireless Headphones",
@@ -28,10 +28,10 @@ var sliding_imageDetail = [
 var i = 0;
 document.getElementById(
   "sliding-img1half"
-).src = `images/demoProductSlider1half/${images1[i]}`;
+).src = `Images/demoProductSlider1half/${Images1[i]}`;
 document.getElementById(
   "sliding-img2half"
-).src = `images/demoProductSlider2half/${images2[i]}`;
+).src = `Images/demoProductSlider2half/${Images2[i]}`;
 document.getElementById(
   "sliding_imageDetail"
 ).innerHTML = `<div class="sellItem-name"><h2>${sliding_imageDetail[i].sellItem_name}</h2></div>
@@ -47,10 +47,10 @@ function previmg() {
   }
   document.getElementById(
     "sliding-img1half"
-  ).src = `images/demoProductSlider1half/${images1[i]}`;
+  ).src = `Images/demoProductSlider1half/${Images1[i]}`;
   document.getElementById(
     "sliding-img2half"
-  ).src = `images/demoProductSlider2half/${images2[i]}`;
+  ).src = `Images/demoProductSlider2half/${Images2[i]}`;
   document.getElementById(
     "sliding_imageDetail"
   ).innerHTML = `<div class="sellItem-name"><h2>${sliding_imageDetail[i].sellItem_name}</h2></div>
@@ -66,10 +66,10 @@ function nextimg() {
   }
   document.getElementById(
     "sliding-img1half"
-  ).src = `images/demoProductSlider1half/${images1[i]}`;
+  ).src = `Images/demoProductSlider1half/${Images1[i]}`;
   document.getElementById(
     "sliding-img2half"
-  ).src = `images/demoProductSlider2half/${images2[i]}`;
+  ).src = `Images/demoProductSlider2half/${Images2[i]}`;
   document.getElementById(
     "sliding_imageDetail"
   ).innerHTML = `<div class="sellItem-name"><h2>${sliding_imageDetail[i].sellItem_name}</h2></div>
